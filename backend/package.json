@@ -1,0 +1,28 @@
+{
+  "name": "qr-time-tracker-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+ 
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "mongoose": "^9.11.3",
+    "cors": "^2.8.6",
+    "express-rate-limit": "^8.7.1",
+    "node-cron": "^4.6.0",
+    "pg": "^8.23.1"
+
+  },
+  "devdependencies":{
+    "nodemon": "^3.1.14"
+  }
+}
